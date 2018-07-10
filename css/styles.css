@@ -1,6 +1,6 @@
 *{
     font-family: 'Abel';
-    font-size: 16px;
+    font-size: 18px;
     box-sizing: border-box;
 }
 
@@ -103,12 +103,8 @@ img:hover {
     text-align: center;
 }
 
-
-section{
-    border-style: none;
-    margin-top: 10px;
-    position: relative;
-
+#contain{
+    clear: both;
 }
 
 .container-fluid p{
@@ -123,4 +119,30 @@ section{
     font-weight: bold;
     font-size: 1.2em;
     margin: 0px, 0px, 0px, 0px;
+}
+
+/* Hover over opdrachtgever image */
+.opdrachtgever-image{
+    float: left;
+    cursor: pointer;
+}
+
+#contain:hover >* {
+    display: block;
+}
+
+/* #opdrachtgever-image:hover >* {
+    display: block;
+} */
+
+.text {
+    float: left; 
+    display: none;    
+}​
+
+section {
+    border-style: none;
+    margin-top: 10px;
+    position: relative;
+
 }

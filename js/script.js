@@ -10,3 +10,4 @@ function getAge(dateString) {
 }
 
 document.getElementById('Leeftijd').textContent = getAge("1979/03/29")
+

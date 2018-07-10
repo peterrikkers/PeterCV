@@ -7,6 +7,7 @@
                 <title>Solution Assignment 3</title>
                 <link rel="stylesheet" href="css/bootstrap.min.css">
                 <link rel="stylesheet" href="css/styles.css">
+                <link rel="stylesheet" href="css/reveal-hidden.css">
                 <link href='https://fonts.googleapis.com/css?family=Oxygen:400,300,700' rel='stylesheet' type='text/css'>
                 <link href='https://fonts.googleapis.com/css?family=Lora' rel='stylesheet' type='text/css'>
                 <link href='https://fonts.googleapis.com/css?family=Abel' rel='stylesheet'>
@@ -30,13 +31,13 @@
                     <div id="collapsable-nav" class="collapse navbar-collapse">
                         <ul id="nav-list" class="nav navbar-nav navbar-right visible-xs">
                             <li>
-                                <a href="#Peter">Over mij</a>
+                                <a href="#overmij">Over mij</a>
                             </li>
                             <li>
-                                <a href="#Ervaring">Ervaring</a>
+                                <a href="#ervaring">Ervaring</a>
                              </li>
                              <li>
-                                <a href="#Opleiding">Opleiding</a>
+                                <a href="#opleiding">Opleiding</a>
                              </li>
                         </ul><!-- #nav-list -->
                     </div><!-- .collapse .navbar-collapse -->
@@ -47,36 +48,32 @@
     <div id="main-content" class="container-fluid">
         <div id="items" class="row">
             <div class="col-lg-4 col-md-6 col-sm-12">
-                <section>
+                <section name="overmij">
                     <h3>Over mij</h3>
-                        <p>Analytisch, kritisch en gedreven zijn woorden die mij goed omschrijven. 
-                                Als ervaren teamspeler met een grote affiniteit voor IT, leg ik op natuurlijke wijze de koppeling tussen business en IT en 
-                                kan ik communiceren met stakeholders op alle niveaus.
-                            <!-- <a href="#top">Back to top of page</a> -->
-                        </p>        
+                    <p>Analytisch, kritisch en gedreven zijn woorden die mij goed omschrijven. 
+                            Als ervaren teamspeler met een grote affiniteit voor IT, leg ik op natuurlijke wijze de koppeling tussen business en IT en 
+                            kan ik communiceren met stakeholders op alle niveaus.
+                        <!-- <a href="#top">Back to top of page</a> -->
+                    </p>        
                 </section>
             </div>
             <div class="col-lg-4 col-md-6 col-sm-12">
-                <section>
                     <!-- <img src="/images/peter rikkers2.jpg" alt="Smiley face" height=70% width=70% > -->
-                </section>
             </div>
             <div class="col-lg-4 col-md-6 col-sm-12">
-                <section>
                     <h3>Details</h3>
-                    <h4>Naam</h4>
+                    <p  class="p_ervaring">Naam</p>
                         <p>Peter Alexander Rikkers</p>
-                    <h4>Leeftijd</h4>
+                    <p  class="p_ervaring">Leeftijd</p>
                         <p id="Leeftijd"></p>
-                    <h4>Woonplaats</h4>
+                    <p  class="p_ervaring">Woonplaats</p>
                         <p>Haarlem</p>
-                    <h4>Contact</h4>
-                        <p><a href="https://www.linkedin.com/in/peter-rikkers" target="_blank">LinkedIn</a></p>
-                </section>
+                    <p  class="p_ervaring">Contact</p>
+                    <p><a href="https://www.linkedin.com/in/peter-rikkers" target="_blank">LinkedIn</a></p>
             </div>
         
             <div class="col-xs-12">
-                <section id="ervaring">
+                <section name="ervaring">
                     <h2>Ervaring</h2>
                     <div class="col-lg-4 col-md-6 col-sm-12">
                         <h3>Opdrachten</h3>
@@ -350,6 +347,85 @@
                             <br>
                         <a href="#top">Back to top of page</a>
                     </p>
+                </section>
+            </div>
+
+            <div class="col-xs-12">
+                <section id="opdrachtgevers">
+                    <h3>Opdrachtgevers</h3>
+                        <div class="col-lg-4 col-md-6 col-sm-12">
+                            <div class="reveal">
+                                <img src="/images/Centric.jpg"> <!-- this is your original image tag -->
+                                <div class="hidden">
+                                    <div class="caption">
+                                            <p class="p_ervaring">Senior tester: december 2017 - heden</p>
+                                    <div class="centered">
+                                        <p>
+                                            Centric neemt de uitvoering van 5 pensioenfondsen over van Syntrus Achmea. Hiervoor implementeren ze Maia. Naast het opstellen en uitvoeren
+                                            van gebruikersacceptatietesten, fungeerde ik als senior tester met veel Maia-kennis als vraagbaak voor de andere testers en
+                                            afdelingsmedewerkers.
+                                        </p>
+                                    </div><!-- end of .centered -->
+                                    </div><!-- end of .caption -->
+                                </div><!-- end of .hidden -->
+                            </div><!-- end of .reveal -->
+                            <div class="reveal">
+                                    <img src="/images/Keylane.jpg"> <!-- this is your original image tag -->
+                                    <div class="hidden">
+                                        <div class="caption">
+                                                <p class="p_ervaring">Senior tester: september 2013 - oktober 2016</p>
+                                        <div class="centered">
+                                            <p>
+                                                Peter is in deze opdracht senior tester in een scrumteam. Samen met software-ontwikkelaars, business analisten en
+                                                producteigenaren wordt er voor een nieuwe klant van Actuera software gebouwd in een scrumteam. Peter is als tester
+                                                verantwoordelijk voor de kwaliteit van de te bouwen functionaliteit voor het pensioenadministratiesysteem MAIA. In deze rol zoekt hij
+                                                de afstemming met verschillende partijen waarbij Peter excelleert door zijn focus op kwaliteit op basis van kennis en ervaring, welke
+                                                hij combineert met zijn uitstekende communicatieve vaardigheden.
+                                            </p>
+                                        </div><!-- end of .centered -->
+                                        </div><!-- end of .caption -->
+                                    </div><!-- end of .hidden -->
+                            </div><!-- end of .reveal -->
+                                <div class="reveal">
+                                    <img src="/images/asr.jpg"> <!-- this is your original image tag -->
+                                    <div class="hidden">
+                                        <div class="caption">
+                                                <p class="p_ervaring">Tooling consultant: januari 2013 - maart 2013</p>
+                                        <div class="centered">
+                                            <p>
+                                                Peter ontwikkelde in korte tijd een dashboard voor het MT van de verkooporganisatie in Access. Met dit dashboard maakte hij de
+                                                salesproductie en salesactiviteiten per productlijn inzichtelijk. Peter was ook verantwoordelijk voor het ontsluiten van alle
+                                                broninformatie binnen de organisatie. Over de voortgang rapporteerde hij aan de adjunct-directeur van de verkooporganisatie.
+                                                <br>
+                                            </p>
+                                            <p class="p_ervaring">Business analist: januari 2013 - maart 2013</p>
+                                            <p>
+                                                In het compensatieprogramma van ASR was Peter verantwoordelijk voor onder meer capaciteitenmanagement. Gezien de omvang
+                                                van het programma, was het wenselijk dat verschillende intermediairs op gereguleerde wijze de (1,1 miljoen) aanbiedingsbrieven
+                                                ontvingen. Om dat te realiseren diende met verschillende programma's, projecten, afdelingen en de buitendienst afspraken te worden
+                                                gemaakt. Peter ontwikkelde in vervolg daarop verschillende databases en verzendmodellen (incl. aansluitend functioneel beheer).
+                                                Door middel van impactmodellen berekende en analyseerde Peter de impact van de verzendplanning op het intermediair. Daarnaast
+                                                maakte Peter de analyse en de voortgangsrapportage direct voor het project- en programmamanagement en indirect voor de RvB en
+                                                RvC.
+                                            </p>
+                                    </div><!-- end of .centered -->
+                                    </div><!-- end of .caption -->
+                                    </div><!-- end of .hidden -->
+                                </div><!-- end of .reveal -->
+
+<!--                                     
+                            <p class="p_ervaring">Informatie-analist</p>
+                            <p  class="p_ervaring">Generali</p>
+                            <p>december 2016 - december 2017</p> -->
+                        </div>
+                        <!-- <div class="col-md-8">
+                            <p>
+                                Voor de implementatie van een nieuw administratiesysteem (Sapiens) welke een groot aantal bestaande administratiesystemen
+                                vervangt, vervult Peter de rol van informatie-analist. In deze rol is hij de schakel tussen de business, IT en de leverancier. Ik zorg
+                                ervoor dat alle uit het nieuwe systeem te genereren (systeem)brieven op de juiste momenten worden aangemaakt en dat ze met de
+                                correcte gegevens worden gevuld, rekeninghoudend met de wensen en eisen van de business.
+                            </p>
+                        </div> -->
                 </section>
             </div>
         
